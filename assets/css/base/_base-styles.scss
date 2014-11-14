@@ -1,0 +1,34 @@
+$light-grey-blue: #cedaee;
+$light-grey: #edf1f7;
+
+$font-sm: 49.33px; // 36pt
+$font-md: 53.33px; // 40pt
+$font-lg: 74.66px; // 56pt
+
+$contact-form-txt: $font-sm;
+$work-subtitle-txt: $font-md;
+$section-title-txt: $font-lg;
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: 'AzoSans', sans-serif;
+}
+
+.container {
+	@include outer-container;
+}
+
+.clearfix {
+	@include clearfix;
+}

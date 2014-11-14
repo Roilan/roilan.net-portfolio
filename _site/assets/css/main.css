@@ -373,28 +373,55 @@ th {
 @font-face {
   font-family: 'AzoSans';
   font-weight: 100;
-  src: url("../fonts/AzoSans-Thin.eot");
+  src: url("fonts/AzoSans-Thin.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AzoSans-Thin.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Thin.woff") format("woff"), url("../fonts/AzoSans-Thin.ttf") format("truetype");
+  src: url("fonts/AzoSans-Thin.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Thin.woff") format("woff"), url("fonts/AzoSans-Thin.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 @font-face {
   font-family: 'AzoSans';
   font-weight: 300;
-  src: url("../fonts/AzoSans-Light.eot");
+  src: url("fonts/AzoSans-Light.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AzoSans-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Light.woff") format("woff"), url("../fonts/AzoSans-Light.ttf") format("truetype");
+  src: url("fonts/AzoSans-Light.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Light.woff") format("woff"), url("fonts/AzoSans-Light.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 @font-face {
   font-family: 'AzoSans';
   font-weight: 500;
-  src: url("../fonts/AzoSans-Regular.eot");
+  src: url("fonts/AzoSans-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AzoSans-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Regular.woff") format("woff"), url("../fonts/AzoSans-Regular.ttf") format("truetype");
+  src: url("fonts/AzoSans-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Regular.woff") format("woff"), url("fonts/AzoSans-Regular.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 @font-face {
   font-family: 'AzoSans';
   font-weight: 700;
-  src: url("../fonts/AzoSans-Bold.eot");
+  src: url("fonts/AzoSans-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("../fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/AzoSans-Bold.woff") format("woff"), url("../fonts/AzoSans-Bold.ttf") format("truetype");
+  src: url("fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Bold.woff") format("woff"), url("fonts/AzoSans-Bold.ttf") format("truetype");
   /* Safari, Android, iOS */ }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'AzoSans', sans-serif; }
+
+.container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
