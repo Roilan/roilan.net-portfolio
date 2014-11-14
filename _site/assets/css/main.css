@@ -420,12 +420,12 @@ a {
     clear: both; }
 
 header {
-  background: url("img/header.png") no-repeat center center fixed;
+  background: url("img/header.png") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 40vh; }
+  height: 380px; }
   header:after {
     content: "";
     display: table;
@@ -452,7 +452,9 @@ header {
 
 #myself {
   background: #cedaee;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  bottom: 80px; }
   #myself .section-title {
     text-align: center;
     font-size: 31px;

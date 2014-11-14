@@ -1,11 +1,11 @@
 header {
 	@include clearfix;
-	background: url('img/header.png') no-repeat center center fixed;
+	background: url('img/header.png') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 40vh;
+	height: 380px;
 
 	.logo {
 		@include size(25px 25px);
