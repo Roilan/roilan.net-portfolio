@@ -1,8 +1,6 @@
 #myself {
 	background: $light-grey-blue;
-	text-align: center;
-	position: relative;
-	bottom: 80px;
+	@include section-background;
 
 	.section-title {
 		@include section-title;
