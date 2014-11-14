@@ -449,3 +449,21 @@ header {
     header .navbar > li {
       display: inline-block;
       padding-right: 15px; }
+
+#myself {
+  background: #cedaee;
+  text-align: center; }
+  #myself .section-title {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px; }
+  #myself .contain-description {
+    margin-top: 12px;
+    padding-bottom: 20px; }
+  #myself #myself-description {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center; }

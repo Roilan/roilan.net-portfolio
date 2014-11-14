@@ -2,12 +2,12 @@ $light-grey-blue: #cedaee;
 $light-grey: #edf1f7;
 
 $font-sm: 49.33px; // 36pt
-$font-md: 20px; // 40pt
-$font-lg: 74.66px; // 56pt
+$font-md: 20px;
+$font-lg: 31px;
 
-$contact-form-txt: $font-sm;
-$work-subtitle-txt: $font-md;
-$section-title-txt: $font-lg;
+$contact-form: $font-sm;
+$work-subtitle: $font-md;
+$section-title: $font-lg;
 
 // Default body styles
 body {
@@ -29,4 +29,13 @@ a {
 
 .container {
 	@include outer-container;
+}
+
+@mixin section-title {
+	text-align: center;
+	font-size: $section-title;
+	font-weight: 300;
+	text-transform: uppercase;
+	position: relative;
+	top: 5px;
 }

@@ -1,0 +1,19 @@
+#myself {
+	background: $light-grey-blue;
+	text-align: center;
+
+	.section-title {
+		@include section-title;
+	}
+
+	.contain-description {
+		margin-top: 12px;
+		padding-bottom: 20px;
+	}
+
+	#myself-description {
+		width: 60%; 
+		margin: 0 auto;
+		text-align: center;
+	}
+} // end myself
