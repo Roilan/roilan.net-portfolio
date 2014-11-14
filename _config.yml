@@ -11,4 +11,4 @@ sass:
   style: :nested
 
 #Exclude
-exclude: [node_modules, Gruntfile.js, package.json, .gitignore]
+exclude: [node_modules, gruntfile.js, Gruntfile.js, package.json, .gitignore, README.md]
