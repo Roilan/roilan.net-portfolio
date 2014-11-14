@@ -477,3 +477,32 @@ header {
   #dev .dev-sec-title {
     font-size: 16px;
     font-weight: 500; }
+
+#work {
+  background: #cedaee;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  padding-bottom: 5px; }
+  #work:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #work .section-title {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px; }
+  #work .work-display {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding-top: 15px; }
+    #work .work-display:last-child {
+      margin-right: 0; }
+    #work .work-display img {
+      height: 150px;
+      width: 150px; }
