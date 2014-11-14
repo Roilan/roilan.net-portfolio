@@ -1,0 +1,14 @@
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+#Server settings
+port: 8080
+
+#Sass settings
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+#Exclude
+exclude: [node_modules, Gruntfile.js, package.json, .gitignore]
