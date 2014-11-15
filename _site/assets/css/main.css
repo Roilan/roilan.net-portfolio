@@ -399,7 +399,8 @@ th {
   src: url("fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Bold.woff") format("woff"), url("fonts/AzoSans-Bold.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 body {
-  font-family: 'AzoSans', sans-serif; }
+  font-family: 'AzoSans', sans-serif;
+  background: #edf1f7; }
 
 ul {
   list-style-type: none; }
@@ -407,8 +408,6 @@ ul {
 a {
   text-decoration: none;
   color: black; }
-  a:hover {
-    background-color: white; }
 
 header {
   background: url("img/header.png") no-repeat center center;
@@ -506,3 +505,24 @@ header {
     #work .work-display img {
       height: 150px;
       width: 150px; }
+
+#contact {
+  background: #edf1f7;
+  text-align: center;
+  position: relative;
+  bottom: 80px;
+  padding-bottom: 5px; }
+  #contact .section-title {
+    text-align: center;
+    font-size: 31px;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: relative;
+    top: 5px; }
+  #contact #icons {
+    padding-top: 15px; }
+    #contact #icons .svg-icons {
+      padding-right: 5px; }
+  #contact #email {
+    font-size: 18px;
+    border-bottom: 2px solid black; }

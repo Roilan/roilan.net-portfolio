@@ -1,0 +1,23 @@
+#contact {
+	background: $light-grey;
+	@include section-background;
+	padding-bottom: 5px;
+
+	.section-title {
+		@include section-title;
+	}
+
+	#icons {
+		padding-top: 15px;
+
+		.svg-icons {
+			padding-right: 5px;
+		}
+
+	}
+
+	#email {
+		font-size: $font-sm-md;
+		border-bottom: 2px solid black;
+	}
+}
