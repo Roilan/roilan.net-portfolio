@@ -1,4 +1,5 @@
 #contact {
+	@include clearfix;
 	background: $light-grey;
 	@include section-background;
 	padding-bottom: 5px;
@@ -18,6 +19,31 @@
 
 	#email {
 		font-size: $font-sm-md;
-		border-bottom: 2px solid black;
+		margin-top: -5px;
+
+		hr {
+			border: 0;
+			border-top: 2px solid black;
+			width: 40%;
+			margin-top: -11px;
+		}
+
 	}
+
+	#form {
+		input {
+			text-align: center;
+		}
+		textarea {
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+			margin-top: 15px;
+			height: 100px;
+			width: 60vw;
+			resize: none;
+		}
+
+	}
+
 }

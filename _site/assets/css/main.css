@@ -512,6 +512,10 @@ header {
   position: relative;
   bottom: 80px;
   padding-bottom: 5px; }
+  #contact:after {
+    content: "";
+    display: table;
+    clear: both; }
   #contact .section-title {
     text-align: center;
     font-size: 31px;
@@ -525,4 +529,19 @@ header {
       padding-right: 5px; }
   #contact #email {
     font-size: 18px;
-    border-bottom: 2px solid black; }
+    margin-top: -5px; }
+    #contact #email hr {
+      border: 0;
+      border-top: 2px solid black;
+      width: 40%;
+      margin-top: -11px; }
+  #contact #form input {
+    text-align: center; }
+  #contact #form textarea {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 100px;
+    width: 60vw;
+    resize: none; }
