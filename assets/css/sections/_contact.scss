@@ -2,7 +2,7 @@
 	@include clearfix;
 	background: $light-grey;
 	@include section-background;
-	padding-bottom: 5px;
+	padding-bottom: 15px;
 
 	.section-title {
 		@include section-title;
@@ -31,9 +31,13 @@
 	}
 
 	#form {
-		input {
+		margin-top: 25px;
+
+		input, {
 			text-align: center;
+			border: 2px solid black;
 		}
+		
 		textarea {
 			text-align: center;
 			display: block;
@@ -42,6 +46,12 @@
 			height: 100px;
 			width: 60vw;
 			resize: none;
+		}
+
+		#submit-btn {
+			@include padding(10px 50px);
+			margin-top: 10px;
+			background: $light-grey-blue;
 		}
 
 	}

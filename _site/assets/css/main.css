@@ -399,8 +399,7 @@ th {
   src: url("fonts/AzoSans-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/AzoSans-Bold.woff") format("woff"), url("fonts/AzoSans-Bold.ttf") format("truetype");
   /* Safari, Android, iOS */ }
 body {
-  font-family: 'AzoSans', sans-serif;
-  background: #edf1f7; }
+  font-family: 'AzoSans', sans-serif; }
 
 ul {
   list-style-type: none; }
@@ -511,7 +510,7 @@ header {
   text-align: center;
   position: relative;
   bottom: 80px;
-  padding-bottom: 5px; }
+  padding-bottom: 15px; }
   #contact:after {
     content: "";
     display: table;
@@ -535,13 +534,20 @@ header {
       border-top: 2px solid black;
       width: 40%;
       margin-top: -11px; }
-  #contact #form input {
-    text-align: center; }
-  #contact #form textarea {
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-top: 15px;
-    height: 100px;
-    width: 60vw;
-    resize: none; }
+  #contact #form {
+    margin-top: 25px; }
+    #contact #form input {
+      text-align: center;
+      border: 2px solid black; }
+    #contact #form textarea {
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      margin-top: 15px;
+      height: 100px;
+      width: 60vw;
+      resize: none; }
+    #contact #form #submit-btn {
+      padding: 10px 50px;
+      margin-top: 10px;
+      background: #cedaee; }
