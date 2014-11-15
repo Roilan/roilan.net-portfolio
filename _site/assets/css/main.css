@@ -414,7 +414,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 380px; }
+  height: 280px; }
   header:after {
     content: "";
     display: table;
@@ -426,8 +426,7 @@ header {
     top: 18px;
     left: 25px;
     float: left;
-    background-color: black;
-    position: relative; }
+    background-color: black; }
   header .navbar {
     float: right;
     text-align: center;
@@ -441,9 +440,7 @@ header {
 
 #myself {
   background: #cedaee;
-  text-align: center;
-  position: relative;
-  bottom: 80px; }
+  text-align: center; }
   #myself .section-title {
     text-align: center;
     font-size: 31px;
@@ -462,8 +459,6 @@ header {
 #dev {
   background: #edf1f7;
   text-align: center;
-  position: relative;
-  bottom: 80px;
   padding-bottom: 5px; }
   #dev .section-title {
     text-align: center;
@@ -479,8 +474,6 @@ header {
 #work {
   background: #cedaee;
   text-align: center;
-  position: relative;
-  bottom: 80px;
   padding-bottom: 5px; }
   #work:after {
     content: "";
@@ -508,8 +501,6 @@ header {
 #contact {
   background: #edf1f7;
   text-align: center;
-  position: relative;
-  bottom: 80px;
   padding-bottom: 15px; }
   #contact:after {
     content: "";

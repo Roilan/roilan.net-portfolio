@@ -5,15 +5,13 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 380px;
+	height: 280px;
 
 	.logo {
 		@include size(25px 25px);
 		@include position(relative, 18px null null 25px);
 		float: left;
 		background-color: black;
-		position: relative;
-
 	}
 
 	.navbar {
