@@ -1,0 +1,138 @@
+// causes gulp error if empty
+@import 'libs/_normalize.scss';
+@import 'libs/bourbon/bourbon';
+@import 'libs/neat/neat';
+@import '_fonts.scss';
+
+// colors
+$light-grey-blue: #cedaee;
+$light-grey: #edf1f7;
+
+// font size
+$font-sm: 16px;
+$font-sm-md: 18px;
+$font-md: 20px;
+$font-lg: 2em;//31px;
+
+// title font size
+
+// mixin
+@mixin font-style($font-size) {
+	text-align: center;
+	font-size: $font-size;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+@mixin description-width {
+	width: 60%;
+	margin: 0 auto;
+}
+
+@mixin description-padding {
+	@include padding(10px);
+}
+
+// general 
+html, 
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'AzoSans', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+p {
+	// removes whitespace default margin adds
+	margin-bottom: 0;
+}
+
+#lightbox-redirect-url {
+	color: #8CB1D1;
+}
+
+header {
+	@include clearfix;
+	background: url('../img/header.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 40%;
+
+	.navbar {
+		@include font-style($font-md);
+
+		float: right;
+		margin-right: 20px;
+
+		> li {
+			display: inline-block;
+			padding-right: 15px;
+		}
+	}
+	
+}
+
+#about {
+	background: $light-grey;
+	text-align: center;
+	@include description-padding;
+
+	.about-title {
+		@include font-style($font-lg);
+	}
+
+	.about-description {
+		@include description-width;
+		font-size: 1em;
+
+		a {
+			color: #F43407;
+		}
+	}
+}
+
+#work {
+	background: $light-grey-blue;
+	text-align: center;
+	height: 30%;
+	@include description-padding;
+
+	.work-title {
+		@include font-style($font-lg);
+		@include padding(10px);
+	}
+
+	.lightbox {
+		margin-top: 10px;
+	}
+}
+
+#contact {
+	background: $light-grey;
+	text-align: center;
+	@include description-padding;
+
+	.contact-title {
+		@include font-style($font-lg);
+	}
+
+	.svg-icons {
+		margin-top: 10px;
+
+		.email {
+			@include padding(10px null);
+		}
+	}
+}
